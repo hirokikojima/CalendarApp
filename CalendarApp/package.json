@@ -1,0 +1,30 @@
+{
+  "name": "CalendarApp",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo Test!",
+    "dev": "npx webpack --mode development",
+    "prod": "npx webpack --mode production"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0",
+    "vue": "^2.6.9",
+    "vue-full-calendar": "^2.7.0",
+    "vue-moment-datepicker": "^1.0.5",
+    "vue-router": "^3.0.6",
+    "vuejs-datepicker": "^1.5.4",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.9",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
